@@ -1,2 +1,2 @@
 # ChatApplication
- A simple TCP chat app using Django
+A simple TCP chat room using Python Sockets 
