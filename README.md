@@ -1,41 +1,43 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+In this Chat Application, my goal is to make a simple connection between several clients and server. 
+It helped me to apply the basics of networking and to know how to apply this in the future in bigger
+projects related to networking. I have always been curious about CyberSecurity and understanding 
+networking through programming is the reason why I made this software.
 
-{Provide a description the networking program that you wrote. Describe how to use your software.  If you did Client/Server, then you will need to describe how to start both.}
+To use this server you need to have both the server and client files running. In one computer, you will have to run 
+the server file, it will be the foundation of the chatroom that will deal with each connections of the clients. To join
+the server, you will need to run the client file in another computer. After creating an username, you will be able 
+to access the chatroom. You can repeat the same thing with the client file and other computers connected in the same 
+network for this application.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (you will need to show two pieces of software running and communicating with each other) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/zxN-As9UVD4)
 
 # Network Communication
 
-{Describe the architecture that you used (client/server or peer-to-peer)}
+I build the app by following the architecture client/server
 
-{Identify if you are using TCP or UDP and what port numbers are used.}
+I used TCP for this example of a Chat Room. 
 
-{Identify the format of messages being sent between the client and server or the messages sent between two peers.}
+The format of the messages send from the server to the clients is "utf-8"
 
 # Development Environment
 
 Visual Studio Code
+Terminal
 
 ### Language and Libraries Used
 * Python
-* Sockets, Threading, and Json
-
+* Sockets, Threading
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Python Socket Server](https://docs.python.org/3.6/library/socketserver.html)
+* [Python Socket](https://docs.python.org/3/library/socket.html)
+* [What is TCP?](https://www.geeksforgeeks.org/what-is-transmission-control-protocol-tcp/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Give users access to create an account with an username and a password that will be saved externally in another file
+* Use the hashing library for passwords saved from the chat server
+* Create a GUI for the chat app
